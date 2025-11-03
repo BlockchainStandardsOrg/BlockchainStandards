@@ -3,9 +3,6 @@ title: "Hardware Requirements"
 date: 2025-11-03
 draft: false
 weight: 1
-outputs:
-  - html
-  - json
 ---
 
 # 1. Hardware Requirements
