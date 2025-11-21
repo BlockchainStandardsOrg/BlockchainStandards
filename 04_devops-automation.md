@@ -39,7 +39,7 @@ Projects should recognize and document compatibility with common automation and 
 While not every blockchain must *support* these tools natively, it should avoid design choices that make automation impossible.
 
 Tool Category | Common Tools | Usage Examples
-----------------|---------------|----------------
+---------------- | --------------- | ----------------
 **Provisioning / Config Management** | Ansible, Puppet, Chef, SaltStack | Server setup, package installation, node config management
 **Infrastructure as Code (IaC)** | Terraform, Pulumi | Create and manage cloud infrastructure declaratively
 **Container Orchestration** | Docker, Kubernetes, Helm | Containerized deployments, scaling, and service management

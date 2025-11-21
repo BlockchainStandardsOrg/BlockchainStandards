@@ -43,7 +43,7 @@ Projects must evaluate and document the **resource footprint** of their software
 **Key Metrics to Document:**
 
 Resource | Description | Measurement Target
------------|--------------|---------------------
+----------- | -------------- | ---------------------
 **CPU Usage** | Average and peak utilization during block production | < 50% sustained
 **Memory Usage** | RAM required for node synchronization | ≤ 8 GB preferred
 **Disk Usage** | Storage size for full and archive nodes | Publish size growth rate per day
@@ -82,7 +82,7 @@ Projects should define **clear node roles** with tiered requirements.
 **Example Node Roles:**
 
 Node Type | Purpose | Resource Tier | Notes
-------------|----------|----------------|-------
+------------ | ---------- | ---------------- | -------
 **Light Node** | Reads network state, no validation | Very Low | Ideal for wallets and explorers
 **Validator Node** | Produces and signs blocks | High | Requires stable compute and network
 **RPC Node** | Serves API requests | Medium | Should be horizontally scalable

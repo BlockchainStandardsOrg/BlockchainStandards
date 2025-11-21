@@ -33,7 +33,7 @@ Projects should maintain official communication channels for operators and devel
 Each channel should serve a defined purpose and remain consistent throughout the project's lifecycle. If Discord, allow Channel Following.
 
 Channel Type | Purpose | Examples
----------------|----------|-----------
+--------------- | ---------- | -----------
 **Validator Announcements** | Official outbound messages only. Used for Validator releases, maintenance, and incident notifications. | `#mainnet-validator-announcements`
 **Validator Discussion / Support** | For community and operator Validator discussions, troubleshooting, and feedback. | `#mainnet-validator-discussion`, `#general`
 **FullNode Announcements** | Official outbound messages only. Used for FullNode releases, maintenance, and incident notifications. | `#mainnet-fullnode-announcements`

@@ -32,7 +32,7 @@ Projects **must specify**:
 Projects should define each server type required to participate in the network. Each role must include its purpose, whether it is **mandatory or optional**, and the number of instances typically required per operator.
 
 Role | Purpose | Mandatory | Typical Quantity
-------|----------|------------|------------------
+------ | ---------- | ------------ | ------------------
 **Validator Node** | Participates in consensus; signs blocks/transactions. | ✅ | 1
 **Sentinel / Sentry Node** | Protects validator node by proxying network connections. | ✅ (for secure setups) | 2–3
 **Full Node** | Maintains full blockchain state for queries. | Optional | 1+
@@ -50,7 +50,7 @@ Projects should **clearly identify** which roles are *required for network parti
 Each role must have documented **minimum** and **recommended** specifications:
 
 Component | Minimum | Recommended | Notes
-------------|----------|--------------|-------
+------------ | ---------- | -------------- | -------
 **CPU** | 4 vCPU | 8+ vCPU | Modern x86_64 or ARM64
 **RAM** | 8 GB | 16–32 GB | Avoid swap usage
 **Disk Type** | SSD | NVMe | HDD not permitted for production validators

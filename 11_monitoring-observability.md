@@ -57,7 +57,7 @@ blockchain_peer_count 22
 **Recommended Metrics Categories:**
 
 Category | Example Metrics | Description
------------|------------------|-------------
+----------- | ------------------ | -------------
 **Consensus** | `block_height`, `consensus_rounds_total` | Tracks chain progress and validator participation
 **Network** | `peer_count`, `p2p_bytes_sent_total` | Measures network connectivity
 **Storage** | `disk_usage_bytes`, `db_write_latency_seconds` | Monitors disk health and performance
@@ -98,7 +98,7 @@ Projects must define **structured logging standards**.
 **Log Levels:**
 
 Level | Description
---------|-------------
+-------- | -------------
 `error` | Critical issue or crash
 `warn` | Unexpected but recoverable condition
 `info` | Standard operational event
@@ -191,7 +191,7 @@ Blockchain projects should provide integration examples with popular monitoring 
 **Recommended Stack Components:**
 
 Component | Purpose
-------------|---------
+------------ | ---------
 **Prometheus** | Metric collection
 **Grafana** | Visualization
 **Loki** | Centralized log aggregation
