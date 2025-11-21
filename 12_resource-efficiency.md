@@ -42,13 +42,13 @@ Projects must evaluate and document the **resource footprint** of their software
 
 **Key Metrics to Document:**
 
-| Resource | Description | Measurement Target |
-|-----------|--------------|---------------------|
-| **CPU Usage** | Average and peak utilization during block production | < 50% sustained |
-| **Memory Usage** | RAM required for node synchronization | ≤ 8 GB preferred |
-| **Disk Usage** | Storage size for full and archive nodes | Publish size growth rate per day |
-| **Network Bandwidth** | Average and peak P2P data throughput | Optimize under 10 Mbps sustained |
-| **Power Consumption** | Estimate energy use under load | Measure via typical hardware |
+Resource | Description | Measurement Target
+-----------|--------------|---------------------
+**CPU Usage** | Average and peak utilization during block production | < 50% sustained
+**Memory Usage** | RAM required for node synchronization | ≤ 8 GB preferred
+**Disk Usage** | Storage size for full and archive nodes | Publish size growth rate per day
+**Network Bandwidth** | Average and peak P2P data throughput | Optimize under 10 Mbps sustained
+**Power Consumption** | Estimate energy use under load | Measure via typical hardware
 
 Projects should benchmark these metrics for:
 
@@ -81,12 +81,12 @@ Projects should define **clear node roles** with tiered requirements.
 
 **Example Node Roles:**
 
-| Node Type | Purpose | Resource Tier | Notes |
-|------------|----------|----------------|-------|
-| **Light Node** | Reads network state, no validation | Very Low | Ideal for wallets and explorers |
-| **Validator Node** | Produces and signs blocks | High | Requires stable compute and network |
-| **RPC Node** | Serves API requests | Medium | Should be horizontally scalable |
-| **Archive Node** | Stores full history | Very High | Optional for research or analytics |
+Node Type | Purpose | Resource Tier | Notes
+------------|----------|----------------|-------
+**Light Node** | Reads network state, no validation | Very Low | Ideal for wallets and explorers
+**Validator Node** | Produces and signs blocks | High | Requires stable compute and network
+**RPC Node** | Serves API requests | Medium | Should be horizontally scalable
+**Archive Node** | Stores full history | Very High | Optional for research or analytics
 
 By clearly defining these tiers, operators can right-size their infrastructure without over-provisioning.
 

@@ -19,12 +19,12 @@ This section defines best practices for distributing blockchain software as **bi
 
 Projects should provide one or more standardized binary distribution formats:
 
-| Format | Use Case | Example |
-|---------|-----------|----------|
-| **Tarball (.tar.gz)** | Portable Linux installations | `blockchain-v1.3.0-linux-amd64.tar.gz` |
-| **Zip Archive (.zip)** | Cross-platform (Windows/macOS) | `blockchain-v1.3.0-windows-x64.zip` |
-| **APT Package (.deb)** | Debian/Ubuntu repositories | `apt install blockchain-node` |
-| **RPM Package (.rpm)** | RHEL/Fedora/CentOS | `dnf install blockchain-node` |
+Format | Use Case | Example
+---------|-----------|----------
+**Tarball (.tar.gz)** | Portable Linux installations | `blockchain-v1.3.0-linux-amd64.tar.gz`
+**Zip Archive (.zip)** | Cross-platform (Windows/macOS) | `blockchain-v1.3.0-windows-x64.zip`
+**APT Package (.deb)** | Debian/Ubuntu repositories | `apt install blockchain-node`
+**RPM Package (.rpm)** | RHEL/Fedora/CentOS | `dnf install blockchain-node`
 
 All official binaries must be:
 

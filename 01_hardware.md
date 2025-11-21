@@ -31,15 +31,15 @@ Projects **must specify**:
 
 Projects should define each server type required to participate in the network. Each role must include its purpose, whether it is **mandatory or optional**, and the number of instances typically required per operator.
 
-| Role | Purpose | Mandatory | Typical Quantity |
-|------|----------|------------|------------------|
-| **Validator Node** | Participates in consensus; signs blocks/transactions. | ✅ | 1 |
-| **Sentinel / Sentry Node** | Protects validator node by proxying network connections. | ✅ (for secure setups) | 2–3 |
-| **Full Node** | Maintains full blockchain state for queries. | Optional | 1+ |
-| **Archive Node** | Keeps full historical state; often used by indexers/explorers. | Optional | 1 |
-| **RPC/API Node** | Handles user or dApp requests; may be load-balanced. | Optional | 1+ |
-| **Indexer / Indexing DB** | Builds and serves queryable data. | Optional | 1 |
-| **Database** | Backend database for storing blockchain data. | Optional | 1 |
+Role | Purpose | Mandatory | Typical Quantity
+------|----------|------------|------------------
+**Validator Node** | Participates in consensus; signs blocks/transactions. | ✅ | 1
+**Sentinel / Sentry Node** | Protects validator node by proxying network connections. | ✅ (for secure setups) | 2–3
+**Full Node** | Maintains full blockchain state for queries. | Optional | 1+
+**Archive Node** | Keeps full historical state; often used by indexers/explorers. | Optional | 1
+**RPC/API Node** | Handles user or dApp requests; may be load-balanced. | Optional | 1+
+**Indexer / Indexing DB** | Builds and serves queryable data. | Optional | 1
+**Database** | Backend database for storing blockchain data. | Optional | 1
 
 Projects should **clearly identify** which roles are *required for network participation* and which are *optional for extended services*.
 
@@ -49,14 +49,14 @@ Projects should **clearly identify** which roles are *required for network parti
 
 Each role must have documented **minimum** and **recommended** specifications:
 
-| Component | Minimum | Recommended | Notes |
-|------------|----------|--------------|-------|
-| **CPU** | 4 vCPU | 8+ vCPU | Modern x86_64 or ARM64 |
-| **RAM** | 8 GB | 16–32 GB | Avoid swap usage |
-| **Disk Type** | SSD | NVMe | HDD not permitted for production validators |
-| **Disk Size** | 500 GB | 2 TB+ | Depends on chain history and pruning |
-| **Network Bandwidth** | 100 Mbps | 1 Gbps+ | Symmetric uplink/downlink preferred |
-| **Latency** | <100 ms | <50 ms | Between validator and peers |
+Component | Minimum | Recommended | Notes
+------------|----------|--------------|-------
+**CPU** | 4 vCPU | 8+ vCPU | Modern x86_64 or ARM64
+**RAM** | 8 GB | 16–32 GB | Avoid swap usage
+**Disk Type** | SSD | NVMe | HDD not permitted for production validators
+**Disk Size** | 500 GB | 2 TB+ | Depends on chain history and pruning
+**Network Bandwidth** | 100 Mbps | 1 Gbps+ | Symmetric uplink/downlink preferred
+**Latency** | <100 ms | <50 ms | Between validator and peers
 
 Additional guidance:
 

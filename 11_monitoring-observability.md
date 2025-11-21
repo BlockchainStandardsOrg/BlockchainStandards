@@ -56,15 +56,15 @@ blockchain_peer_count 22
 
 **Recommended Metrics Categories:**
 
-| Category | Example Metrics | Description |
-|-----------|------------------|-------------|
-| **Consensus** | `block_height`, `consensus_rounds_total` | Tracks chain progress and validator participation |
-| **Network** | `peer_count`, `p2p_bytes_sent_total` | Measures network connectivity |
-| **Storage** | `disk_usage_bytes`, `db_write_latency_seconds` | Monitors disk health and performance |
-| **System** | `cpu_usage`, `memory_usage`, `file_descriptors` | Reports resource consumption |
-| **RPC/API** | `rpc_requests_total`, `rpc_errors_total` | Monitors user/API interactions |
-| **Mempool** | `tx_pool_size`, `tx_latency_seconds` | Tracks transaction handling |
-| **Validator** | `blocks_signed_total`, `missed_blocks_total` | Monitors validator performance and uptime |
+Category | Example Metrics | Description
+-----------|------------------|-------------
+**Consensus** | `block_height`, `consensus_rounds_total` | Tracks chain progress and validator participation
+**Network** | `peer_count`, `p2p_bytes_sent_total` | Measures network connectivity
+**Storage** | `disk_usage_bytes`, `db_write_latency_seconds` | Monitors disk health and performance
+**System** | `cpu_usage`, `memory_usage`, `file_descriptors` | Reports resource consumption
+**RPC/API** | `rpc_requests_total`, `rpc_errors_total` | Monitors user/API interactions
+**Mempool** | `tx_pool_size`, `tx_latency_seconds` | Tracks transaction handling
+**Validator** | `blocks_signed_total`, `missed_blocks_total` | Monitors validator performance and uptime
 
 ---
 
@@ -97,12 +97,12 @@ Projects must define **structured logging standards**.
 
 **Log Levels:**
 
-| Level | Description |
-|--------|--------------|
-| `error` | Critical issue or crash |
-| `warn` | Unexpected but recoverable condition |
-| `info` | Standard operational event |
-| `debug` | Detailed tracing for development/testing |
+Level | Description
+--------|-------------
+`error` | Critical issue or crash
+`warn` | Unexpected but recoverable condition
+`info` | Standard operational event
+`debug` | Detailed tracing for development/testing
 
 ---
 
@@ -190,13 +190,13 @@ Blockchain projects should provide integration examples with popular monitoring 
 
 **Recommended Stack Components:**
 
-| Component | Purpose |
-|------------|----------|
-| **Prometheus** | Metric collection |
-| **Grafana** | Visualization |
-| **Loki** | Centralized log aggregation |
-| **Alertmanager** | Alert routing and notifications |
-| **Tempo / Jaeger** | Distributed tracing |
+Component | Purpose
+------------|---------
+**Prometheus** | Metric collection
+**Grafana** | Visualization
+**Loki** | Centralized log aggregation
+**Alertmanager** | Alert routing and notifications
+**Tempo / Jaeger** | Distributed tracing
 
 ---
 

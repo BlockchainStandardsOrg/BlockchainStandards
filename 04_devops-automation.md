@@ -38,14 +38,14 @@ Blockchain software should be designed with the following principles in mind:
 Projects should recognize and document compatibility with common automation and infrastructure tools.
 While not every blockchain must *support* these tools natively, it should avoid design choices that make automation impossible.
 
-| Tool Category | Common Tools | Usage Examples |
-|----------------|---------------|----------------|
-| **Provisioning / Config Management** | Ansible, Puppet, Chef, SaltStack | Server setup, package installation, node config management |
-| **Infrastructure as Code (IaC)** | Terraform, Pulumi | Create and manage cloud infrastructure declaratively |
-| **Container Orchestration** | Docker, Kubernetes, Helm | Containerized deployments, scaling, and service management |
-| **GitOps & CI/CD** | ArgoCD, FluxCD, Jenkins, GitHub Actions | Automated build, deployment, and rollback pipelines |
-| **Monitoring / Metrics** | Prometheus, Grafana, Loki | Observe node health, performance, and uptime |
-| **Alerting / Incident Management** | PagerDuty, OpsGenie, Slack Alerts | Incident response and automated escalation |
+Tool Category | Common Tools | Usage Examples
+----------------|---------------|----------------
+**Provisioning / Config Management** | Ansible, Puppet, Chef, SaltStack | Server setup, package installation, node config management
+**Infrastructure as Code (IaC)** | Terraform, Pulumi | Create and manage cloud infrastructure declaratively
+**Container Orchestration** | Docker, Kubernetes, Helm | Containerized deployments, scaling, and service management
+**GitOps & CI/CD** | ArgoCD, FluxCD, Jenkins, GitHub Actions | Automated build, deployment, and rollback pipelines
+**Monitoring / Metrics** | Prometheus, Grafana, Loki | Observe node health, performance, and uptime
+**Alerting / Incident Management** | PagerDuty, OpsGenie, Slack Alerts | Incident response and automated escalation
 
 Projects should document which of these tools have official or community-supported integrations.
 

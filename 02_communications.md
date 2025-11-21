@@ -32,12 +32,12 @@ Projects must ensure that all communication channels and notifications are:
 Projects should maintain official communication channels for operators and developers.
 Each channel should serve a defined purpose and remain consistent throughout the project's lifecycle. If Discord, allow Channel Following.
 
-| Channel Type | Purpose | Examples |
-|---------------|----------|-----------|
-| **Validator Announcements** | Official outbound messages only. Used for Validator releases, maintenance, and incident notifications. | `#mainnet-validator-announcements` |
-| **Validator Discussion / Support** | For community and operator Validator discussions, troubleshooting, and feedback. | `#mainnet-validator-discussion`, `#general` |
-| **FullNode Announcements** | Official outbound messages only. Used for FullNode releases, maintenance, and incident notifications. | `#mainnet-fullnode-announcements` |
-| **FullNode Discussion / Support** | For community and operator FullNode discussions, troubleshooting, and feedback. | `#mainnet-fullnode-discussion` |
+Channel Type | Purpose | Examples
+---------------|----------|-----------
+**Validator Announcements** | Official outbound messages only. Used for Validator releases, maintenance, and incident notifications. | `#mainnet-validator-announcements`
+**Validator Discussion / Support** | For community and operator Validator discussions, troubleshooting, and feedback. | `#mainnet-validator-discussion`, `#general`
+**FullNode Announcements** | Official outbound messages only. Used for FullNode releases, maintenance, and incident notifications. | `#mainnet-fullnode-announcements`
+**FullNode Discussion / Support** | For community and operator FullNode discussions, troubleshooting, and feedback. | `#mainnet-fullnode-discussion`
 
 > **Standard:** Each network (mainnet, testnet, canary/devnet) should have its own *dedicated release announcement channel.*
 

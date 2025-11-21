@@ -34,12 +34,12 @@ Blockchain upgrades should follow these principles:
 
 Blockchain projects typically perform one or more of the following upgrade types:
 
-| Type | Description | Example |
-|------|--------------|----------|
-| **Binary Upgrade** | Replacement of node software with a new version, no protocol change. | v1.2.0 → v1.2.1 |
-| **Consensus Upgrade (Hard Fork)** | Protocol-level change requiring all nodes to upgrade before a specific block height. | v1.2.x → v1.3.0 |
-| **Configuration Upgrade** | Modifies runtime configuration or chain parameters. | Enabling new feature flags |
-| **Schema Upgrade** | Database schema or data structure migration. | Indexer or API database schema changes |
+Type | Description | Example
+------|--------------|----------
+**Binary Upgrade** | Replacement of node software with a new version, no protocol change. | v1.2.0 → v1.2.1
+**Consensus Upgrade (Hard Fork)** | Protocol-level change requiring all nodes to upgrade before a specific block height. | v1.2.x → v1.3.0
+**Configuration Upgrade** | Modifies runtime configuration or chain parameters. | Enabling new feature flags
+**Schema Upgrade** | Database schema or data structure migration. | Indexer or API database schema changes
 
 Each type must be **explicitly documented** with version compatibility and any special migration steps.
 
@@ -62,11 +62,11 @@ Before performing any upgrade, the project must ensure:
 
 **Example:**
 
-| From Version | To Version | Type | Notes |
-|---------------|-------------|------|-------|
-| v1.2.0 | v1.2.1 | Patch | Safe upgrade |
-| v1.2.x | v1.3.0 | Hard Fork | Mandatory before block 12,345,678 |
-| v1.3.x | v2.0.0 | Breaking | Requires chain halt and migration |
+From Version | To Version | Type | Notes
+---------------|-------------|------|-------
+v1.2.0 | v1.2.1 | Patch | Safe upgrade
+v1.2.x | v1.3.0 | Hard Fork | Mandatory before block 12,345,678
+v1.3.x | v2.0.0 | Breaking | Requires chain halt and migration
 
 ---
 
@@ -112,11 +112,11 @@ Projects must define and communicate upgrade schedules early.
 
 **Minimum Notice Periods:**
 
-| Network | Notice Period | Example |
-|----------|----------------|----------|
-| Mainnet | ≥ 7 days | Announce block height and date/time |
-| Testnet | ≥ 3 days | Used for testing new releases |
-| Devnet/Canary | Flexible | Experimental validation only |
+Network | Notice Period | Example
+----------|----------------|----------
+Mainnet | ≥ 7 days | Announce block height and date/time
+Testnet | ≥ 3 days | Used for testing new releases
+Devnet/Canary | Flexible | Experimental validation only
 
 **Chain Halts:**
 

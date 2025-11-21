@@ -56,15 +56,15 @@ No configuration value should require editing a template file directly.
 
 **Examples of Exposed Variables:**
 
-| Parameter | Type | Default | Description |
-|------------|------|----------|-------------|
-| `chainId` | string | `mainnet-1` | Blockchain network identifier |
-| `nodeType` | string | `validator` | Node role: validator, fullnode, RPC |
-| `persistence.enabled` | bool | `true` | Enables persistent volume claims |
-| `resources.requests.cpu` | string | `2` | Minimum CPU request |
-| `resources.limits.memory` | string | `8Gi` | Max memory limit |
-| `service.type` | string | `ClusterIP` | Kubernetes service type |
-| `env` | map | `{}` | Custom environment variables |
+Parameter | Type | Default | Description
+------------|------|----------|-------------
+`chainId` | string | `mainnet-1` | Blockchain network identifier
+`nodeType` | string | `validator` | Node role: validator, fullnode, RPC
+`persistence.enabled` | bool | `true` | Enables persistent volume claims
+`resources.requests.cpu` | string | `2` | Minimum CPU request
+`resources.limits.memory` | string | `8Gi` | Max memory limit
+`service.type` | string | `ClusterIP` | Kubernetes service type
+`env` | map | `{}` | Custom environment variables
 
 ---
 
